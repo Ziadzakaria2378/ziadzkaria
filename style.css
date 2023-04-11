@@ -1,0 +1,673 @@
+/*matrial icons*/
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fs-small {
+    font-size: 13px;
+}
+
+/*-------------------------Nav--------------------------*/
+
+.nav-link {
+    color: #ffffff ;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 40px;
+}
+
+.nav-icons {
+    width: 17%;
+
+}
+
+.h-line::before {
+    content: "";
+    width: 1px;
+    height: 65px;
+    background-color: #eee;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*-----------------------Home section-------------------------*/
+.layer {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+.content1 {
+    background-image: url(images/bg-image-28.jpg);
+    background-size: cover;
+}
+
+.content2 {
+    background-image: url(images/bg-image-29.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.comment h1 {
+
+    opacity: 0%;
+
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.comment p {
+    opacity: 0%;
+    font-size: 20px;
+}
+
+.comment button {
+    opacity: 0%;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.active .carousel-caption .comment h1 {
+
+    animation-name: example;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+
+.active .carousel-caption .comment p {
+
+    animation-name: example;
+    animation-delay: 0.5s;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+
+
+.active .carousel-caption .comment button {
+
+    animation-name: example;
+    animation-delay: 1s;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes example {
+    0% {
+        opacity: 50%;
+        transform: scale(.8);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: scale(1);
+    }
+}
+
+
+
+.home .carousel-control-prev {
+    left: 0px;
+    top: 50%;
+
+    width: 50px;
+    height: 50px;
+    transform: translateY(-100%);
+    border: 2px white solid;
+    border-left: 0px;
+    color: white;
+}
+
+.icon-layer {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 100%;
+    top: 0px;
+    background-color: aliceblue;
+    transition: right .5s;
+    z-index: -1;
+}
+
+
+.carousel-control-prev:hover .icon-layer {
+    right: 0px;
+}
+
+.carousel-control-prev:hover .home-icon {
+    color: black;
+}
+
+
+.home .carousel-control-next {
+    left: 0px;
+    top: 50%;
+
+    width: 50px;
+    height: 50px;
+    border: 2px white solid;
+    border-left: 0px;
+    color: white;
+}
+
+.carousel-control-next:hover .icon-layer {
+    right: 0px;
+}
+
+.carousel-control-next:hover .home-icon {
+    color: black !important;
+}
+
+
+
+.home .carousel-control-prev-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.home .carousel-control-next-icon {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+}
+
+/*-----------------------------------About section---------------------*/
+.var-text {
+    color: #00c3da;
+}
+
+.var-text::after {
+    content: 'hello';
+    animation-name: write;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes write {
+    0% {
+        content: "A";
+    }
+
+    2% {
+        content: "Ap";
+    }
+
+    4% {
+        content: "App";
+    }
+
+    6% {
+        content: "Apps";
+    }
+
+    18% {
+        content: "Apps";
+    }
+
+    19% {
+        content: "App";
+    }
+
+    21% {
+        content: "Ap";
+    }
+
+    23% {
+        content: "A";
+    }
+
+    25% {
+        content: "";
+    }
+
+    27% {
+        content: "S";
+    }
+
+    29% {
+        content: "So";
+    }
+
+    31% {
+        content: "Sof";
+    }
+
+    33% {
+        content: "Soft";
+    }
+
+    35% {
+        content: "Softw";
+    }
+
+    37% {
+        content: "Softwa";
+    }
+
+    39% {
+        content: "Softwar";
+    }
+
+    41% {
+        content: "Software";
+    }
+
+    50% {
+        content: "Software";
+    }
+
+    51% {
+        content: "Softwar";
+    }
+
+    53% {
+        content: "Softwa";
+    }
+
+    55% {
+        content: "Softw";
+    }
+
+    57% {
+        content: "Soft";
+    }
+
+    59% {
+        content: "Sof";
+    }
+
+    61% {
+        content: "So";
+    }
+
+    63% {
+        content: "S";
+    }
+
+    65% {
+        content: "";
+    }
+
+    67% {
+        content: "W";
+    }
+
+    69% {
+        content: "We";
+    }
+
+    71% {
+        content: "Webs";
+    }
+
+    73% {
+        content: "Websi";
+    }
+
+    75% {
+        content: "Websit";
+    }
+
+    77% {
+        content: "Website";
+    }
+
+    87% {
+        content: "Website";
+    }
+
+    89% {
+        content: "Websit";
+    }
+
+    91% {
+        content: "Websi";
+    }
+
+    93% {
+        content: "Web";
+    }
+
+    95% {
+        content: "We";
+    }
+
+    97% {
+        content: "W";
+    }
+
+    100% {
+        content: "";
+    }
+
+
+
+}
+
+
+
+.var-text::before {
+    content: '|';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    animation-name: cursor;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cursor {
+    0% {
+        content: "|";
+    }
+
+    50% {
+        content: "|";
+    }
+
+    51% {
+        content: " ";
+    }
+
+    100% {
+        content: " ";
+    }
+
+}
+
+
+.about-link a {
+    width: fit-content;
+    padding: 15px 20px;
+    display: block;
+    color: #242424;
+    font-size: 15px;
+    border: #dedede 1px solid;
+    transition: background-color 0.5s;
+}
+
+.about-link a:hover {
+    background-color: #242424;
+    color: #eee;
+
+}
+
+.about-section {
+    border-bottom: #dedede 1px solid;
+}
+
+
+/*-----------------------Team-----------------------------*/
+
+.header-text h2 {
+    font-weight: 900;
+    font-size: 70px;
+    color: #eee;
+
+}
+
+.header-text {
+    position: relative;
+}
+
+.header-text::after {
+    content: 'Creative Team';
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    font-weight: 600;
+}
+
+
+.team-member-layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 195, 218, 0.9);
+
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    opacity: 0%;
+    transition: all 0.5s;
+}
+
+.team-member-img:hover .team-member-layer {
+    opacity: 100%;
+    top: 0%;
+}
+
+
+
+
+/*-----------------------Works-----------------------*/
+
+.bg-dark-section {
+    background-color: #605d5d;
+
+}
+
+.works-header h2 {
+    font-weight: 700;
+    line-height: 1.3;
+    font-size: 38px;
+
+}
+
+.works-header {
+    width: 360px;
+}
+
+
+.works-header h2::before {
+    content: 'W';
+    font-size: 60px;
+    font-weight: 900;
+
+    position: absolute;
+    top: -50%;
+    left: -5px;
+    opacity: 0.1;
+
+
+}
+
+.list {
+    list-style: none;
+}
+
+/*----------------------price------------------------*/
+
+
+.price-text h2 {
+    font-weight: 900;
+    font-size: 70px;
+    color: #eee;
+
+}
+
+.price-text {
+    position: relative;
+}
+
+.price-text::after {
+    content: 'Cheap Price';
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.price-bg {
+    background-color: #f7f7f7;
+}
+
+.va-top {
+    vertical-align: top;
+}
+
+.price-item-header h2 {
+    font-size: 55px;
+}
+
+.price-item-header {
+    padding-bottom: 20px;
+    border-bottom: #dedede 1px solid;
+}
+
+.scale {
+    transform: scale(1.06);
+
+}
+
+.color-text-price {
+    color: #00c3da;
+}
+
+.simple-shadow {
+    box-shadow: 0 0 40px rgb(0 0 0 / 5%);
+}
+
+.badge {
+    position: absolute;
+    top: 0px;
+    left: 60%;
+    background-color: #00c3da;
+    border-radius: 15px;
+}
+
+
+/*--------------------------Review--------------*/
+
+.frist-test {
+    width: 750px;
+    background-color: white;
+}
+
+.img-size {
+    width: 100px;
+    height: 100px;
+}
+
+.slide-btn-shape {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+
+}
+
+
+/*----------------final section--------------*/
+
+
+.contact-header h2 {
+    font-weight: 700;
+    line-height: 1.3;
+    font-size: 38px;
+
+}
+
+.contact-header {
+    width: 360px;
+}
+
+
+.contact-header h2::before {
+    content: 'G';
+    font-size: 60px;
+    font-weight: 900;
+
+    position: absolute;
+    top: -50%;
+    left: -5px;
+    opacity: 0.1;
+
+
+}
+
+.btn-send {
+    background-color: #00c3da;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    height: 50px;
+    padding: 0px 30px;
+
+    transition: all 0.5s;
+}
+
+.btn-send:hover {
+    color: white;
+    transform: translateY(-3px);
+}
+
+
+
+/*------------   end  ---------------------------*/
+
+.btn-read-more {
+    background-color: #00c3da;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    height: 50px;
+    padding: 0px 25px;
+
+    transition: all 0.5s;
+
+}
+
+
+.btn-read-more:hover {
+    color: white;
+    transform: translateY(-3px);
+}
+
+
+.contact-btn {
+    font-size: 12px;
+    font-weight: 400;
+
+    height: 50px;
+    padding: 0px 25px;
+}
